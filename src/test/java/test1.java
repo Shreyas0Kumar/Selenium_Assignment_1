@@ -23,10 +23,10 @@ public class test1 {
 		driver.manage().window().maximize();
 
 		WebElement UserName = driver.findElement(By.xpath("//input[@class='_2IX_2- VJZDxU']"));
-		UserName.sendKeys("9473052048");
+		UserName.sendKeys("Enter number");
 
 		WebElement Password = driver.findElement(By.xpath("//input[@class='_2IX_2- _3mctLh VJZDxU']"));
-		Password.sendKeys("Somu_210");
+		Password.sendKeys("enter password");
 
 		WebElement login_button = driver.findElement(By.xpath("//button[@class='_2KpZ6l _2HKlqd _3AWRsL']"));
 		login_button.click();
